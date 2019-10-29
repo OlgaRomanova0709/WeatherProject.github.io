@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: black;
+    background: lightgray;
+  }
+  p {font-size: 16px;}
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .btn {
+    color: white;
+    background: lightseagreen;
+    font-size: 30px;
+    padding: 15px;
+    border-color: lightseagreen;
+  }
+
+  .visualisation-total {
+      background-color: white;
+      padding: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 20px;
+  }
+  h1 {
+    color: lightseagreen;  
+  }
+  h3 {
+    color: lightseagreen;  
+  }
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+   
+  .ex1 {
+  border: 1px solid lightseagreen;
+  }
+
+
+  </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <button class="btn btn-danger navbar-btn">Lattitude</button>
+            </div>
+            <div class="container">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                              Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="visualization1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="visualization2.html">Humidity</a>
+                        <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
+                          
+                    </div>
+                    </li>
+                    <li class="nav-link"><a href="comparison_pg.html">Comparison</a></li>
+                    <li class="nav-link"><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-md-9 sidenav2">
+                <div class="box visualisation-total align=center">
+                    <h1><b>Wind Speed</b></h1>
+                    <hr>
+                    <img src="Fig4.png" height="400" width="550" alt="Plot">
+                    <p align="justify"> As expected,the weatherbecomes significantly warmer as one approaches the 
+                        equator (0 Deg.Latitude). More interestingly, however, is the fact that the 
+                        southern hemisphere tends to be warmer his time of year than the northern
+                        hemisphere. This may be due to the tilt of the earth at the time of the year
+                        this data was gathered.
+                    </p>
+                </div>         
+            </div>
+            <div class="col-md-3 sidenav1">
+                <div class="visualisation-total">
+                    <h3 class="header"><b>Visualisation</b></h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-3">
+                            <a target="_self" href="visualization1.html">
+                            <img class="thumbnail" src="Fig1.png" height="100%" width="100%" alt="Avatar">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xs-3">
+                            <a target="_self" href="visualization2.html">
+                            <img class="thumbnail" src="Fig2.png" height="100%" width="100%" alt="Avatar"> 
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 col-xs-3">
+                            <a target="_self" href="visualization3.html">
+                            <img class="thumbnail" src="Fig3.png" height="100%" width="100%" alt="Avatar">
+                            </a> 
+                        </div>
+                        <div class="col-md-6 col-xs-3">
+                            <a target="_self" href="visualization4.html">
+                            <img class="thumbnail ex1" src="Fig4.png" height="100%" width="100%" alt="Avatar"> 
+                            </a>
+                        </div>
+                 </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+      
+      
+
+
+
+
+</body>
+</html>
