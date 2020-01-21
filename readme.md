@@ -1,6 +1,6 @@
 # Web Visualization Dashboard (Latitude)
 
-Utilized **HTML** and **CSS** to create a website with 7 pages vizualising weather changes in dependence from latitude.
+Utilized **HTML** and **CSS** to create a website with 7 pages vizualizing weather changes in dependence from latitude.
 
 Live Link to the Website : https://olgaromanova0709.github.io/Web-page/
 
