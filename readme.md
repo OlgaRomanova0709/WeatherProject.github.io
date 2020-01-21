@@ -1,8 +1,8 @@
 # Web Visualization Dashboard (Latitude)
 
-Data is more powerful when we share it with others! Let's take what we've learned about **HTML** and **CSS** to create a dashboard showing off the analysis we've done.
+Utilized **HTML** and **CSS** to create a website with 7 pages vizualising weather changes in dependence from latitude.
 
-Live Link on the Website : https://olgaromanova0709.github.io/Web-page/
+Live Link to the Website : https://olgaromanova0709.github.io/Web-page/
 
 ![Snapshots/first.png](Snapshots/first.png)
 
